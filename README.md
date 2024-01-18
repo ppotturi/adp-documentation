@@ -29,10 +29,14 @@ pip install mkdocs-material
 
 To deactivate virtual environment `deactivate`
 
+More info: https://docs.python.org/3/tutorial/venv.html
+
 
 # MK Docs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+https://squidfunk.github.io/mkdocs-material/reference/
 
 ## Commands
 

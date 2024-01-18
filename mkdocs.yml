@@ -1,0 +1,42 @@
+site_name: Defra's ADP Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  favicon: images/favicon.png
+  logo: images/favicon.png
+  language: en
+extra: 
+  version: 0.0.1
+  last_updated: 2024-01-28
+  github: https://github.com/defra/adp-documentation
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/defra/adp-documentation
+  generator: false
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  
+
+copyright: |
+  &copy; 2024 <a href="https://defra.github.io/"  target="_blank" rel="noopener">Defra</a>

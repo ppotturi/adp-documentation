@@ -4,6 +4,8 @@ Public Azure Developer Platform Documentation for Defra
 
 # Running locally on windows
 
+Install Python 3.12.1
+
 ## Virtual Env
 
 https://docs.python.org/3/tutorial/venv.html

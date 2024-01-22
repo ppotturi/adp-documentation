@@ -6,6 +6,7 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
@@ -56,3 +57,12 @@ extra_javascript:
 
 copyright: |
   &copy; 2024 <a href="https://defra.github.io/"  target="_blank" rel="noopener">Defra</a>
+
+plugins:
+  - search
+  - mkdocs-nav-weight
+
+#nav:
+#- home: 
+#  - about.md
+#  - WhatsNext: index.md

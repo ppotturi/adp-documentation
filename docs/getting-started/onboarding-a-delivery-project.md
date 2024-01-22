@@ -1,1 +1,0 @@
-# Onboarding a delivery project

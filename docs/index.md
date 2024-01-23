@@ -10,4 +10,12 @@ weight: 1
 
 # Defra's Azure Developer Platform
 
-ADP Documentation that is publicly available.
+ADP Documentation that is publicly available. For more documentation that is deemed a little more sensitive please ref to the Internal ADP documentation.
+
+## Internal ADP documentation
+
+Contains:
+
+- Runbooks to PRD
+- Key contact information
+- Other sensitive architecture information

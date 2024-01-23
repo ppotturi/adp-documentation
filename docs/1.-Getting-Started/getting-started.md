@@ -8,7 +8,7 @@ weight: -1
 ---
 Enables your users, projects, programmes to get started quickly on ADP.
 
-Aimmed at:
+Whos is this for:
 
 - Techical Leads
 - Project Managers

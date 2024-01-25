@@ -32,7 +32,7 @@ extends:
   template: /pipelines/common-techdocs-publish.yaml@DEFRA-ADPPipelineCommon
   parameters:
     WikiRepoName: "self"
-    EntityName: 'default/component/adp-documentation'
+    EntityName: 'default/component/adp-portal'
     DocsPath: '' #docs in root folder
 
     

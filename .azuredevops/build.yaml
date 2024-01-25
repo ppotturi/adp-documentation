@@ -33,6 +33,6 @@ extends:
   parameters:
     WikiRepoName: "self"
     EntityName: 'default/component/adp-documentation'
-    DocsPath: '' #docs in root folder
+    DocsPath: '/docs' #docs in root folder
 
     

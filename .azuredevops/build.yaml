@@ -1,0 +1,38 @@
+pr:
+  branches:
+    include:
+      - main
+  paths:
+    exclude:
+      - test-output/*
+      - bin/*
+      - obj/*
+  drafts: false
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - "*"
+  paths:
+    exclude:
+      - test-output/*
+      - bin/*
+      - obj/*
+
+resources:
+  repositories:
+    - repository: DEFRA-ADPPipelineCommon
+      name: DEFRA/adp-pipeline-common
+      endpoint: DEFRA
+      type: github
+      ref: refs/heads/main
+
+extends:
+  template: /pipelines/common-techdocs-publish.yaml@DEFRA-ADPPipelineCommon
+  parameters:
+    WikiRepoName: "self"
+    EntityName: 'default/component/adp-documentation'
+    DocsPath: '' #docs in root folder
+
+    

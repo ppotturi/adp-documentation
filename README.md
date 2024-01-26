@@ -1,44 +1,53 @@
 # adp-documentation
-Public Azure Developer Platform Documentation for Defra
 
+Public Azure Developer Platform Documentation for Defra
 
 # Running locally on windows
 
-Install Python 3.12.1
+[Install Python 3.11.6](https://www.python.org/downloads/release/python-3116/)
+
+```
+python --version
+```
 
 ## Virtual Env
 
 https://docs.python.org/3/tutorial/venv.html
 
 Run
+
 ```
 python -m venv venv
 ```
-Run (windows)
-```
-venv\Scripts\activate
-```
+
+Run (windowsspan
 
 install/ upgrade pip
+
 ```
 python -m pip install --upgrade pip
 ```
 
+Install packages
+
 ```
 pip install mkdocs-material
-```
+pip install pillow cairosvg
+pip install mkdocs-glightbox
+pip install mkdocs-nav-weight
+pip install mkdocs-techdocs-core
 
+```
 
 To deactivate virtual environment `deactivate`
 
 More info: https://docs.python.org/3/tutorial/venv.html
 
-
 # MK Docs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-https://squidfunk.github.io/mkdocs-material/reference/
+[mkdocs-material documentation](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ## Commands
 

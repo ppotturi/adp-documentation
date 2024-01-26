@@ -22,4 +22,5 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-nav-weight
+      - run: pip install mkdocs-techdocs-core
       - run: mkdocs gh-deploy --force

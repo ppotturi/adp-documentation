@@ -52,6 +52,7 @@ copyright: |
 
 plugins:
   - search
+  - mkdocs-nav-weight
   - techdocs-core
 
 docs_dir: docs

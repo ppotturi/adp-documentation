@@ -20,7 +20,11 @@ Run
 python -m venv venv
 ```
 
-Run (windowsspan
+Run
+
+```
+venv\Scripts\activate
+```
 
 install/ upgrade pip
 

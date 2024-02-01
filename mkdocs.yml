@@ -60,6 +60,7 @@ copyright: |
 
 plugins:
   - search
+  - mermaid2
   - mkdocs-nav-weight
   - techdocs-core
 

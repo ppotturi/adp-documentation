@@ -35,12 +35,7 @@ python -m pip install --upgrade pip
 Install packages
 
 ```
-pip install mkdocs-material
-pip install pillow cairosvg
-pip install mkdocs-glightbox
-pip install mkdocs-nav-weight
-pip install mkdocs-techdocs-core
-
+pip install -r .\requirements.txt
 ```
 
 To deactivate virtual environment `deactivate`

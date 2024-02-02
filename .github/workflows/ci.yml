@@ -18,10 +18,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install pillow cairosvg
-      - run: pip install mkdocs-glightbox
-      - run: pip install mkdocs-nav-weight
-      - run: pip install mkdocs-techdocs-core
-      - run: pip install mkdocs-mermaid2-plugin
+      - run: pip install -r requirements.txt --no-warn-script-location
       - run: mkdocs gh-deploy --force

@@ -35,31 +35,32 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:mermaid2.fence_mermaid_custom
   - tables
   - attr_list
   - md_in_html
-  - footnotes
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/loader.js
 
 copyright: |
   &copy; 2024 <a href="https://defra.github.io/"  target="_blank" rel="noopener">Defra</a>
 
 plugins:
   - search
+  - mermaid2
   - mkdocs-nav-weight
   - techdocs-core
 

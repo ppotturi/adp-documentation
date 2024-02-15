@@ -2,7 +2,7 @@
 title: Migrate to ADP
 summary: Details on migrating your existing project and its services to ADP.
 authors:
-    - xxx
+    - Logan Talbot
 date: 2024-01-22
 weight: -11
 ---
@@ -16,4 +16,9 @@ Details on migrating your existing project and its services to ADP.
 - Techical Leads of existing Defra projects.
 - Developers of existing Defra projects.
 
-#
+# Project Migration Stages
+![Project Migration Stages](../images/project-migration-stages.PNG)
+
+
+# Project Migration Timeline
+![Project Migration Timeline](../images/project-migration-timeline.PNG)

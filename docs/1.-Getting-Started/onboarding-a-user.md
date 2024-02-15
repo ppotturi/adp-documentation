@@ -26,9 +26,9 @@ By completing this guide you will have completed these actions:
 - Understanding of tech and non-tech users.
 - Adding user to ADP portal database under your delivery team. [Not automated]
 - Adding user to ADO Team, allowing access to delivery project's ADO project. [Not automated]
-- Adding user to Defra's VPN group. [Not automated]
-- Adding tech user to GitHub Team. [Not automated]
-- Adding tech user to Azure group, allowing access to delivery project's Azure resources. [Not automated]
+- Adding user to Defra's VPN group. [Partly automated]
+- Adding tech user to GitHub Team. [Partly automated]
+- Adding tech user to Azure group, allowing access to delivery project's Azure resources. [Partly automated]
 
 
 # Guide

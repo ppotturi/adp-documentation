@@ -11,7 +11,7 @@ weight: 1
 
 # Documentation Approach
 
-For ADP there is going to be two data sources for **documentation** one that can be external (ADP **Documentation**) and another that will be internal (ADP **Documentation** Internal) both will be contributed to on GitHub via a GitHub Git repository. Our approach is to fellow GDS's Service standard of "Make new source code open" for our **documentation** making most of our **documentation** open to the public allowing it to be easily viewed by third parties. Making it available for reuse on an open licence while still keeping ownership of the intellectual property, enabling across government collaboration and ease of support for existing and future projects with Defra. For the minority of **documentation** which is classified as possible sensitive information will be available via ADP Internal **Documentation**.
+For ADP there is going to be two data sources for documentation one that can be external (ADP Documentation) and another that will be internal (ADP Documentation Internal) both will be contributed to on GitHub via a GitHub Git repository. Our approach is to fellow GDS's Service standard of "Make new source code open" for our documentation making most of our documentation open to the public allowing it to be easily viewed by third parties. Making it available for reuse on an open licence while still keeping ownership of the intellectual property, enabling across government collaboration and ease of support for existing and future projects with Defra. For the minority of documentation which is classified as possible sensitive information will be available via ADP Internal Documentation.
 
 Diagram of our approach:
 
@@ -19,13 +19,13 @@ Diagram of our approach:
 
 Explanation:
 
-* Tech User - normally a developer, Tech Lead, or Solution Architect will be able to access both internal and external **documentation**. Either from the ADP Portal or from a GitHub pages website. Tech users can view and extend the **documentation** going directly to a GitHub repository and submitting a pull request.
-* Non-tech User - Project Manager, Business Analyst, etc will have access to internal and external **documentation** via the ADP Portal. For the external **documentation** they will still have access to this GitHub page but not the external **documentation**'s GitHub page. As non-tech users will require a GitHub account that is in Defra's GitHub Organisation to access it.
-* 3^rd^ party - Member of the public, possible Defra supplier, member of a non-Defra government department, etc will have access to External **documentation** via GitHub pages website.
-* ADP Team - Will have access to all. Will be the main contributors and approvers of internal/ external **documentation**. ADP team will add additional **documentation** to the README.md of the ADP GitHub repositories. On commit to the main branch this will be copied over the internal/ external **documentation** repositories allowing ADP customers to reduce the amount of places they need to look for **documentation** increasing their productivity for learning and use when on the ADP.
-* Automated deployments - On commit to main for both internal and external **documentation** repositories, deployment pipelines will be ran to deploy the **documentation** to GitHub pages and to ADP Portal's **documentation** store.
+* Tech User - normally a developer, Tech Lead, or Solution Architect will be able to access both internal and external documentation. Either from the ADP Portal or from a GitHub pages website. Tech users can view and extend the documentation going directly to a GitHub repository and submitting a pull request.
+* Non-tech User - Project Manager, Business Analyst, etc will have access to internal and external documentation via the ADP Portal. For the external documentation they will still have access to this GitHub page but not the external documentation's GitHub page. As non-tech users will require a GitHub account that is in Defra's GitHub Organisation to access it.
+* 3rd party - Member of the public, possible Defra supplier, member of a non-Defra government department, etc will have access to External documentation via GitHub pages website.
+* ADP Team - Will have access to all. Will be the main contributors and approvers of internal/ external documentation. ADP team will add additional documentation to the README.md of the ADP GitHub repositories. On commit to the main branch this will be copied over the internal/ external documentation repositories allowing ADP customers to reduce the amount of places they need to look for documentation increasing their productivity for learning and use when on the ADP.
+* Automated deployments - On commit to main for both internal and external documentation repositories, deployment pipelines will be ran to deploy the documentation to GitHub pages and to ADP Portal's documentation store.
 
-**ADP **Documentation** (External)**
+**ADP Documentation (External)**
 
 Portal Link: [https://portal.snd1.adp.defra.gov.uk/docs/default/component/adp-documentation](https://portal.snd1.adp.defra.gov.uk/docs/default/component/adp-documentation)
 

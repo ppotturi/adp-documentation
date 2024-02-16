@@ -1,1 +1,0 @@
-# How to deploy to your platform service

@@ -16,6 +16,7 @@ Before onboarding a delivery project ou will first need to ensure that:
 
 - [Onboarded delivery project on to ADP](../1.-Getting-Started/onboarding-a-delivery-project.md).
 - Active user on the ADP Portal with admin permissions for the delivery project on the ADP portal.
+- With your chosen ADO project you will need to ensure that the `ADP Platform Service Account` is the correct permissions for scaffolding. These permissions are, Project, Build, and Endpoint Administrator.
 
 ## Overview
 
@@ -34,8 +35,6 @@ By completing this guide you will have completed these actions:
 - Register in Backstage catalog (via catalog info file).
 
 # Guide
-
-
 
 ## Selecting a template
 

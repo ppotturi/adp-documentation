@@ -14,7 +14,7 @@ In this how to guide you will learn how to create a new service on to ADP within
 
 Before onboarding a delivery project ou will first need to ensure that:
 
-- [Onboarded delivery project on to ADP](../1.-Getting-Started/onboarding-a-delivery-project.md).
+- [Onboarded delivery project on to ADP](../Getting-Started/onboarding-a-delivery-project.md).
 - Active user on the ADP Portal with admin permissions for the delivery project on the ADP portal.
 - With your chosen ADO project you will need to ensure that the `ADP Platform Service Account` is the correct permissions for scaffolding. These permissions are, Project, Build, and Endpoint Administrator.
 

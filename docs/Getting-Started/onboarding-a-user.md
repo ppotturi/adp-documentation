@@ -31,7 +31,6 @@ By completing this guide you will have completed these actions:
 - Adding tech user to GitHub Team. [Partly automated]
 - Adding tech user to Azure group, allowing access to delivery project's Azure resources. [Partly automated]
 
-
 # Guide
 
 ....

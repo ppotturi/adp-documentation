@@ -16,6 +16,9 @@ theme:
   favicon: images/favicon.png
   logo: images/favicon.png
   language: en
+  palette:
+    primary: black
+    accent: default
 extra: 
   version: 0.0.1
   last_updated: 2024-01-28
@@ -40,12 +43,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.extra:
-      pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:mermaid2.fence_mermaid_custom
+  #- pymdownx.extra:
+  #    pymdownx.superfences:
+  #      custom_fences:
+  #        - name: mermaid
+  #          class: mermaid
+  #          format: !!python/name:mermaid2.fence_mermaid_custom
   - tables
   - attr_list
   - md_in_html
@@ -60,7 +63,7 @@ copyright: |
 
 plugins:
   - search
-  - mermaid2
+  #- mermaid2
   - mkdocs-nav-weight
   - techdocs-core
 

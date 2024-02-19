@@ -1,5 +1,3 @@
-
-
 ---
 title: Documentation Approach
 summary: Details of how we are going to document ADP at a high level.

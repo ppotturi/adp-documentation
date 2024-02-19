@@ -1,8 +1,11 @@
-site_name: Defra's ADP Documentation
+site_name: DEFRA's ADP Documentation
 theme:
   name: material
+  palette:
+    primary: black
+    accent: light blue
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
@@ -16,9 +19,6 @@ theme:
   favicon: images/favicon.png
   logo: images/favicon.png
   language: en
-  palette:
-    primary: black
-    accent: default
 extra: 
   version: 0.0.1
   last_updated: 2024-02-19
@@ -69,7 +69,20 @@ plugins:
 
 docs_dir: docs
 
-#nav:
-#- home: 
-#  - about.md
-#  - WhatsNext: index.md
+#page tree e.g. https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+nav:
+  - Why ADP: index.md
+  - Getting Started:
+    - Onboarding a user: Getting-Started\onboarding-a-user.md
+    - Onboarding a delivery project: Getting-Started\onboarding-a-delivery-project.md
+    - Onboarding a delivery programme: Getting-Started\onboarding-a-delivery-programme.md
+  - How to guides:
+    - How to create a platform service: How-to-guides\how-to-create-a-platform-service.md
+  - Migrate to ADP:
+    - Migrate to ADP: Migrate-to-ADP\migrate-to-adp.md
+    - Migrate service to ADP: Migrate-to-ADP\migrate-service-to-adp.md
+  - Platform Strategy:
+    - Documentation Approach: Platform-Strategy\documentation-approach.md
+  - Platform Architecture:
+    - Architecture Overview: Platform-Architecture\architecture-overview.md
+    - Environments: Platform-Architecture\environments.md

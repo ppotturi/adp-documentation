@@ -12,7 +12,7 @@ In this guides you will learn how to migrate your existing service to ADP.
 
 ## Prerequisites
 
-- [Onboarded delivery project on to ADP](../1.-Getting-Started/onboarding-a-delivery-project.md).
+- [Onboarded delivery project on to ADP](../Getting-Started/onboarding-a-delivery-project.md).
 - GitHub repository in the [Defra Org](https://github.com/defra) of your existing service.
 - GitHub repository added to GitHub Apps.
 - Azure DevOps with ADP service connection added.

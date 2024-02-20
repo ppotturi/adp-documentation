@@ -1,4 +1,4 @@
-site_name: DEFRA's ADP Documentation
+site_name: DEFRA - ADP Documentation
 theme:
   name: material
   palette:
@@ -59,7 +59,7 @@ extra_javascript:
   - javascripts/loader.js
 
 copyright: |
-  &copy; 2024 <a href="https://defra.github.io/"  target="_blank" rel="noopener">Defra</a>
+  &copy; Crown copyright | <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"  target="_blank" rel="noopener">All content is available under the Open Government Licence v3.0</a>
 
 plugins:
   - search
@@ -79,8 +79,8 @@ nav:
   - How to guides:
     - How to create a platform service: How-to-guides/how-to-create-a-platform-service.md
   - Migrate to ADP:
-    - Migrate to ADP: Migrate-to-ADP/migrate-to-adp.md
-    - Migrate service to ADP: Migrate-to-ADP/migrate-service-to-adp.md
+    - Migrate a delivery project: Migrate-to-ADP/migrate-a-delivery-project.md
+    - Migrate platform service: Migrate-to-ADP/migrate-a-platform-service.md
   - Platform Strategy:
     - Documentation Approach: Platform-Strategy/documentation-approach.md
   - Platform Architecture:

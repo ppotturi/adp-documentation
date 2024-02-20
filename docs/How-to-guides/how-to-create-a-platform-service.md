@@ -22,17 +22,16 @@ Before onboarding a delivery project ou will first need to ensure that:
 
 By completing this guide you will have completed these actions:
 
-- Creates a GitHub team for the services' delivery project if not already present in Defra GitHub org.
-- Creates a repository in Defra GitHub Org and added to the delivery project's GitHub team.
-- Scaffolds a application in your selected language and defines optional infrastructure.
-- Scaffolding of ADO project if not already done.
+- [X] Creates a GitHub team for the services' delivery project if not already present in Defra GitHub org.
+- [X] Scaffolds a application in your selected language and defines optional infrastructure.
+- [X] Scaffolding of ADO project if not already done.
   - Share service connection and agent pools with ADO project.
   - Create ADO environment and variable group in ADO project.
-- Creation of ADO pipeline for the CI/CD for service in selected ADO project/ location.
-- Authorizes service connection between new created ADO Pipeline & GitHub repository.
-- Starts the running of ADO pipeline. Build application and SND3 without approval.
+- [X] Creation of ADO pipeline for the CI/CD for service in selected ADO project/ location.
+- [X] Authorizes service connection between new created ADO Pipeline & GitHub repository.
+- [X] Starts the running of ADO pipeline. Build application and SND3 without approval.
   - Init Sonar Cloud, Snyk, etc.
-- Register in Backstage catalog (via catalog info file).
+- [X] Register in Backstage catalog (via catalog info file).
 
 # Guide
 

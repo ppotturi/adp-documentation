@@ -81,6 +81,7 @@ nav:
   - Migrate to ADP:
     - Migrate a delivery project: Migrate-to-ADP/migrate-a-delivery-project.md
     - Migrate platform service: Migrate-to-ADP/migrate-a-platform-service.md
+    - Migrate production data: Migrate-to-ADP/migrate-production-data.md
   - Platform Strategy:
     - Documentation Approach: Platform-Strategy/documentation-approach.md
   - Platform Architecture:

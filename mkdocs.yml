@@ -73,16 +73,16 @@ docs_dir: docs
 nav:
   - Why ADP: index.md
   - Getting Started:
-    - Onboarding a user: Getting-Started\onboarding-a-user.md
-    - Onboarding a delivery project: Getting-Started\onboarding-a-delivery-project.md
-    - Onboarding a delivery programme: Getting-Started\onboarding-a-delivery-programme.md
+    - Onboarding a user: Getting-Started/onboarding-a-user.md
+    - Onboarding a delivery project: Getting-Started/onboarding-a-delivery-project.md
+    - Onboarding a delivery programme: Getting-Started/onboarding-a-delivery-programme.md
   - How to guides:
-    - How to create a platform service: How-to-guides\how-to-create-a-platform-service.md
+    - How to create a platform service: How-to-guides/how-to-create-a-platform-service.md
   - Migrate to ADP:
-    - Migrate to ADP: Migrate-to-ADP\migrate-to-adp.md
-    - Migrate service to ADP: Migrate-to-ADP\migrate-service-to-adp.md
+    - Migrate to ADP: Migrate-to-ADP/migrate-to-adp.md
+    - Migrate service to ADP: Migrate-to-ADP/migrate-service-to-adp.md
   - Platform Strategy:
-    - Documentation Approach: Platform-Strategy\documentation-approach.md
+    - Documentation Approach: Platform-Strategy/documentation-approach.md
   - Platform Architecture:
-    - Architecture Overview: Platform-Architecture\architecture-overview.md
-    - Environments: Platform-Architecture\environments.md
+    - Architecture Overview: Platform-Architecture/architecture-overview.md
+    - Environments: Platform-Architecture/environments.md

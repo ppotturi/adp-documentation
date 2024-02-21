@@ -6,7 +6,9 @@ authors:
 date: 2024-01-22
 weight: 1
 ---
-# PLEASE NOTE: We are current moving across documentation
+!!!note
+
+    We are current moving across documentation
 
 # What is the Defra Azure Development Platform (ADP)?
 

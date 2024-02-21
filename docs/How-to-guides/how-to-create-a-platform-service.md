@@ -16,7 +16,7 @@ Before onboarding a delivery project ou will first need to ensure that:
 
 - [Onboarded delivery project on to ADP](../Getting-Started/onboarding-a-delivery-project.md).
 - Active user on the ADP Portal with admin permissions for the delivery project on the ADP portal.
-- With your chosen ADO project you will need to ensure that the `ADP Platform Service Account` is the correct permissions for scaffolding. These permissions are, Project, Build, and Endpoint Administrator.
+- With your chosen ADO project you will need to ensure that the `ADP Platform Service Account` is the correct permissions for scaffolding. These permissions are, Project, Build, and Endpoint Administrator. Read & Manage Environments
 
 ## Overview
 

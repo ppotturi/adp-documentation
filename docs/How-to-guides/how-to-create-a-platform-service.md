@@ -24,7 +24,7 @@ By completing this guide you will have completed these actions:
 
 - [X] Creates a GitHub team for the services' delivery project if not already present in Defra GitHub org.
 - [X] Scaffolds a application in your selected language and defines optional infrastructure.
-- [X] Scaffolding of ADO project if not already done.
+- [ ] Scaffolding of ADO project if not already done.
   - Share service connection and agent pools with ADO project.
   - Create ADO environment and variable group in ADO project.
 - [X] Creation of ADO pipeline for the CI/CD for service in selected ADO project/ location.
@@ -32,6 +32,13 @@ By completing this guide you will have completed these actions:
 - [X] Starts the running of ADO pipeline. Build application and SND3 without approval.
   - Init Sonar Cloud, Snyk, etc.
 - [X] Register in Backstage catalog (via catalog info file).
+
+### Areas of support
+
+These areas current requires the support of the ADP Platform Team
+
+- [ ] Domain creation
+- [ ] Flux manifasts
 
 # Guide
 
@@ -83,4 +90,8 @@ CI/CD pipelines will be created in Azure DevOps:
 
 ## Creating the service
 
-Now that you have reviewed and confirmed the creation of your service. It will being completing the actions detailed in the overview section.
+Now that you have reviewed and confirmed the creation of your service. It will be complete the actions detailed in the overview section. After this is complete links will be provided to the new repository, the service link in the ADP portal (Catalog), and to the Azure CI Pipeline which is current running.
+
+![creation of service in portal](../images/creation-of-service.png "Creation of Service in Portal")
+
+# Creation of additional infrastructure

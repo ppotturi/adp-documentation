@@ -9,23 +9,28 @@ some_url: https://example.com
 ---
 # Onboarding a delivery programme
 
-In this getting started guide you will learn how to onboard a delivery programme on to ADP. We will also learn what automated actions that will take place.
+This getting started guide summarises the steps for onboarding a delivery programme onto ADP via the Portal. It also provides an overview of the automated processes involved.    
 
 ## Prerequisites
 
-Before onboarding a delivery project ou will first need to ensure that:
+Before onboarding a delivery programme you will first need to ensure that:
 
-- ABL created within the ADP portal.
-- Active user on the ADP Portal with admin permissions for the ABL that your delivery programme is under.
+- The Arms Length Body (ALB) for your programme has been created within the ADP Portal.
+- You have an active user account within the ADP Portal with admin permissions to create a delivery programme within your selected ALB.
+- You have a unique "Delivery Programme code" or "Service Code" for your Delivery Programme
 
 ## Overview
 
-By completing this guide you will have completed these actions:
+By completing the steps in this guide you will be able to:
 
-- Adding a new delivery programme to the ADP portal database under the programme's ABL. [Not automated]
-- Adding a new delivery programme catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates). [Not automated]
-- Assign delivery programme admins to adminster delivery programme. [Not automated]
+- Add a new delivery programme to the ADP portal database under the programme's ALB. [Not automated]
+- Add a new delivery programmes catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates). [Not automated]
+- Assign delivery programme managers to adminster & maintain the delivery programme. [Not automated]
 
 # Guide
 
+## Creating a Delivery Programme
 ....
+## Entering Delivery Programme information
+....
+## Updating Delivery Programme information

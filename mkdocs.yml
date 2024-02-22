@@ -88,3 +88,6 @@ nav:
   - Platform Architecture:
     - Architecture Overview: Platform-Architecture/architecture-overview.md
     - Environments: Platform-Architecture/environments.md
+  - Developer Reference:
+    - ASO Helm Library Chart: Developer-Reference/Infrastructure/ASO Helm Library Chart.md
+    - ADP Portal: Developer-Reference/Infrastructure/ADP Portal.md

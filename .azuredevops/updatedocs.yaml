@@ -1,0 +1,43 @@
+trigger:
+- main
+
+schedules:
+- cron: '0 0 * * *'
+  displayName: Daily midnight build
+  branches:
+    include:
+    - main
+  always: true
+
+resources:
+  repositories:      
+    - repository: DEFRA-ADPPipelineCommon
+      name: DEFRA/adp-pipeline-common
+      endpoint: DEFRA
+      type: github
+      ref: refs/heads/rv/318720-MergeDoc      
+    - repository: adp-aso-helm-library
+      name: DEFRA/adp-aso-helm-library
+      endpoint: DEFRA
+      type: github
+      ref: refs/heads/main
+    - repository: adp-portal
+      name: DEFRA/adp-portal
+      endpoint: DEFRA
+      type: github
+      ref: refs/heads/main
+
+extends:
+  template: /pipelines/common-updatedocs.yaml@DEFRA-ADPPipelineCommon
+  parameters:
+    sourceRepos:
+      - name: adp-aso-helm-library
+        sourceFilePaths: './README.md'
+        destFilePaths: './docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md'
+      - name: adp-portal
+        sourceFilePaths: './README.md'
+        destFilePaths: './docs/Developer-Reference/Infrastructure/ADP Portal.md'
+
+
+
+    

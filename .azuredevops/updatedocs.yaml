@@ -1,21 +1,21 @@
 trigger:
-- main
+  - main
 
 schedules:
-- cron: '0 0 * * *'
-  displayName: Daily midnight build
-  branches:
-    include:
-    - main
-  always: true
+  - cron: "0 0 * * *"
+    displayName: Daily midnight build
+    branches:
+      include:
+        - main
+    always: true
 
 resources:
-  repositories:      
+  repositories:
     - repository: DEFRA-ADPPipelineCommon
       name: DEFRA/adp-pipeline-common
       endpoint: DEFRA
       type: github
-      ref: refs/heads/rv/318720-MergeDoc      
+      ref: refs/heads/rv/318720-MergeDoc
     - repository: adp-aso-helm-library
       name: DEFRA/adp-aso-helm-library
       endpoint: DEFRA
@@ -32,12 +32,8 @@ extends:
   parameters:
     sourceRepos:
       - name: adp-aso-helm-library
-        sourceFilePaths: './README.md'
-        destFilePaths: './docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md'
+        sourceFilePaths: "./README.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md"
       - name: adp-portal
-        sourceFilePaths: './README.md'
-        destFilePaths: './docs/Developer-Reference/Infrastructure/ADP Portal.md'
-
-
-
-    
+        sourceFilePaths: "./README.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/ADP Portal.md"

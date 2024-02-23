@@ -32,8 +32,8 @@ extends:
   parameters:
     sourceRepos:
       - name: adp-aso-helm-library
-        sourceFilePaths: "README.md;pull_request_template.md"
-        destFilePaths: "docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md;docs/Developer-Reference/Infrastructure/pull_request_template.md"
+        sourceFilePaths: "./README.md;./pull_request_template.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md;./docs/Developer-Reference/Infrastructure/pull_request_template.md"
       - name: adp-portal
-        sourceFilePaths: "README.md/app/README.md"
-        destFilePaths: "docs/Developer-Reference/Infrastructure/ADP Portal.md;docs/Developer-Reference/adp-portal/ADP Portal.md"
+        sourceFilePaths: "./README.md;./app/README.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/ADP Portal.md;./docs/Developer-Reference/adp-portal/ADP Portal.md"

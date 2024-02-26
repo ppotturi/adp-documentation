@@ -26,6 +26,16 @@ resources:
       endpoint: DEFRA
       type: github
       ref: refs/heads/main
+    - repository: techdocs-external
+      name: defra-adp-sandpit/techdocs-external
+      endpoint: defra-adp-sandpit
+      type: github
+      ref: refs/heads/main      
+    - repository: adp-infrastructure
+      name: defra-adp-sandpit/adp-infrastructure
+      endpoint: defra-adp-sandpit
+      type: github
+      ref: refs/heads/main        
 
 extends:
   template: /pipelines/common-updatedocs.yaml@DEFRA-ADPPipelineCommon
@@ -37,3 +47,9 @@ extends:
       - name: adp-portal
         sourceFilePaths: "./README.md;./app/README.md"
         destFilePaths: "./docs/Developer-Reference/Infrastructure/ADP Portal.md;./docs/Developer-Reference/adp-portal/ADP Portal.md"
+      - name: techdocs-external
+        sourceFilePaths: "./README.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/techdocs-external.md"        
+      - name: adp-infrastructure
+        sourceFilePaths: "./README.md"
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/adp-infrastructure.md"             

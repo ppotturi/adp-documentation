@@ -24,9 +24,9 @@ Before onboarding a delivery programme you will first need to ensure that:
 
 By completing the steps in this guide you will be able to:
 
-- Add a new delivery programme to the ADP portal database under the programme's ALB. [Not automated]
-- Add a new delivery programmes catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates). [Not automated]
-- Assign delivery programme managers to adminster & maintain the delivery programme. [Not automated]
+- [ ] Add a new delivery programme to the ADP portal database under the programme's ALB.
+- [ ] Add a new delivery programmes catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates).
+- [ ] Assign delivery programme managers to administer & maintain the delivery programme.
 
 # Guide
 

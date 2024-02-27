@@ -21,15 +21,15 @@ Before onboarding a delivery project ou will first need to ensure that:
 
 By completing this guide you will have completed these actions:
 
-- Adding a new delivery project to ADP portal database under your programme. [Not automated]
-- Adding a new delivery project catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates). [Not automated]
-- Assign delivery project admins to adminster delivery project. [Not automated]
-- Adding creation of a new ADO Team on a selected ADO project. [Not automated]
-- Adding creation of GitHub Team for delivery project. [Partly automated]
-- Adding Azure group(s) for the delivery project's tech users. Members of this group will be given access to common platform resources and project resource group in tenants, and Defra [Partly automated]
-  - O365_DefraDev  - SND3, data and control plane read/ write. [Partly automated]
-  - Defra - DEV1, TST1/2, data and control plane read/ write. [Not automated]
-  - Defra - PRE1, PRD1, ready access on the control plane. No data plane access given [Not automated]
+- [ ] Adding a new delivery project to ADP portal database under your programme.
+- [ ] Adding a new delivery project catalog files to [adp-software-templates](https://github.com/DEFRA/adp-software-templates).
+- [ ] Assign delivery project admins to adminster delivery project.
+- [ ] Adding creation of a new ADO Team on a selected ADO project.
+- [ ] Adding creation of GitHub Team for delivery project.
+- [ ] Adding Azure group(s) for the delivery project's tech users. Members of this group will be given access to common platform resources and project resource group in tenants, and Defra
+  - [ ] O365_DefraDev  - SND3, data and control plane read/ write.
+  - [ ] Defra - DEV1, TST1/2, data and control plane read/ write.
+  - [ ] Defra - PRE1, PRD1, ready access on the control plane. No data plane access given
 
 # Guide
 

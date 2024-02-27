@@ -23,13 +23,14 @@ Before onboarding a user on to your delivery project you will first need to ensu
 
 By completing this guide you will have completed these actions:
 
-- Understanding of tech and non-tech users.
-- Adding user to ADP portal database under your delivery team. [Not automated]
-- Adding user to Azure AD ADP portal group, allowing basic read acess to the ADP portal. [Not automated]
-- Adding user to ADO Team, allowing access to delivery project's ADO project. [Not automated]
-- Adding user to Defra's VPN group. [Partly automated]
-- Adding tech user to GitHub Team. [Partly automated]
-- Adding tech user to Azure group, allowing access to delivery project's Azure resources. [Partly automated]
+- [X] Understanding of tech and non-tech users.
+
+- [ ] Adding user to ADP portal database under your delivery team. [Not automated]
+- [ ] Adding user to Azure AD ADP portal group, allowing basic read acess to the ADP portal. [Not automated]
+- [ ] Adding user to ADO Team, allowing access to delivery project's ADO project. [Not automated]
+- [ ] Adding user to Defra's VPN group.
+- [ ] Adding tech user to GitHub Team.
+- [ ] Adding tech user to Azure group, allowing access to delivery project's Azure resources.
 
 # Guide
 

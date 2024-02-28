@@ -15,7 +15,7 @@ resources:
       name: DEFRA/adp-pipeline-common
       endpoint: DEFRA
       type: github
-      ref: refs/heads/rv/318720-MergeDoc
+      ref: refs/heads/main
     - repository: adp-aso-helm-library
       name: DEFRA/adp-aso-helm-library
       endpoint: DEFRA
@@ -25,12 +25,7 @@ resources:
       name: DEFRA/adp-portal
       endpoint: DEFRA
       type: github
-      ref: refs/heads/main
-    - repository: techdocs-external
-      name: defra-adp-sandpit/techdocs-external
-      endpoint: defra-adp-sandpit
-      type: github
-      ref: refs/heads/main          
+      ref: refs/heads/main        
 
 extends:
   template: /pipelines/common-updatedocs.yaml@DEFRA-ADPPipelineCommon
@@ -41,7 +36,4 @@ extends:
         destFilePaths: "./docs/Developer-Reference/Infrastructure/ASO Helm Library Chart.md"
       - name: adp-portal
         sourceFilePaths: "./README.md;./app/README.md"
-        destFilePaths: "./docs/Developer-Reference/Infrastructure/ADP Portal.md;./docs/Developer-Reference/adp-portal/ADP Portal.md"
-      - name: techdocs-external
-        sourceFilePaths: "./README.md"
-        destFilePaths: "./docs/Developer-Reference/Infrastructure/techdocs-external.md"                
+        destFilePaths: "./docs/Developer-Reference/Infrastructure/ADP Portal.md;./docs/Developer-Reference/adp-portal/ADP Portal.md"        

@@ -3,21 +3,23 @@ title: Onboarding a user
 summary: Onboard a user an ADP's Delivery Project (Team).
 authors:
     - Logan Talbot
+    - Lorenzo Squillante
 date: 2024-02-15
 weight: 1
 some_url: https://example.com
 ---
 # Onboarding a user
 
-In this getting started guide you will learn how to onboard a user to ADP within your Delivery Project. We will also learn what automated actions that take place by onboarding a user.
+This getting started guide summarises the steps for onboarding a user onto your delivery project in ADP. It also provides an overview of the automated processes involved.
 
 ## Prerequisites
 
 Before onboarding a user on to your delivery project you will first need to ensure that:
 
-- [Onboarded delivery project to ADP](onboarding-a-delivery-project.md).
-- Valid cloud account (@defra.onmicrosoft.com or @defra.gov.uk). [Need to link to guidence on how to get a cloud account]
-- Active user on the ADP Portal with admin permissions under your delivery project.
+- The delivery project has been onboarded via the ADP portal, see the Getting Started guide for [Onboarding a delivery project on to ADP](onboarding-a-delivery-project.md).
+- You have an active user account within the ADP Portal with admin permissions to onboard users to your selected delivery project.
+- The user you are onboarding has a valid cloud account (with the domain as: @defra.onmicrosoft.com or @defra.gov.uk). [Need to link to guidence on how to get a cloud account].
+- If the user you are onboarding is a tech user, they must have a valid GitHub handle. 
 
 ## Overview
 
@@ -35,3 +37,7 @@ By completing this guide you will have completed these actions:
 # Guide
 
 ....
+## Delivery Project Roles
+
+...
+## Onboarding a Delivery Project Team Member 

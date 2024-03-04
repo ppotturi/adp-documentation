@@ -3,19 +3,21 @@ title: Onboarding a delivery project
 summary: Onboard a delivery project on to ADP.
 authors:
     - Logan Talbot
+    - Lorenzo Squillante
 date: 2024-02-15
 weight: 2
 ---
 # Onboarding a delivery project
 
-In this getting started guide you will learn how to onboard a delivery project on to ADP. We will also learn what automated actions that will take place.
+This getting started guide summarises the steps for onboarding a delivery project onto ADP via the Portal. It also provides an overview of the automated processes involved.
 
 ## Prerequisites
 
-Before onboarding a delivery project ou will first need to ensure that:
+Before onboarding a delivery project you will first need to ensure that:
 
-- [Onboarded delivery programme on to ADP](onboarding-a-delivery-programme.md).
-- Active user on the ADP Portal with admin permissions for the delivery programme on the ADP portal.
+- The delivery programme for your project has been onboarded onto ADP, see the Getting Started guide for [Onboarding a delivery programme on to ADP](onboarding-a-delivery-programme.md).
+- You have an active user account within the ADP Portal with admin permissions to create a delivery project within your selected delivery programme.
+- You have a "Service Code" and "Cost Centre" for your delivery project. 
 
 ## Overview
 
@@ -34,3 +36,4 @@ By completing this guide you will have completed these actions:
 # Guide
 
 ....
+## Creating a Delivery Project

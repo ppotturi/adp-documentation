@@ -5,11 +5,8 @@ theme:
     primary: black
     accent: light blue
   features:
-    #- navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
-    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
@@ -40,8 +37,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
-  - pymdownx.details
   - pymdownx.mark
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -71,23 +69,69 @@ docs_dir: docs
 
 #page tree e.g. https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
 nav:
+  # ------------------- Root level -------------------
   - Why ADP: index.md
+  # ------------------- Getting Started -------------------
   - Getting Started:
     - Onboarding a user: Getting-Started/onboarding-a-user.md
     - Onboarding a delivery project: Getting-Started/onboarding-a-delivery-project.md
     - Onboarding a delivery programme: Getting-Started/onboarding-a-delivery-programme.md
+  # ------------------- How to guides -------------------
   - How to guides:
-    - How to Guides: How-to-guides/How to guides.md
     - How to create a platform service: How-to-guides/how-to-create-a-platform-service.md
+  # ------------------- Migrate to ADP -------------------
   - Migrate to ADP:
     - Migrate a delivery project: Migrate-to-ADP/migrate-a-delivery-project.md
     - Migrate platform service: Migrate-to-ADP/migrate-a-platform-service.md
     - Migrate production data: Migrate-to-ADP/migrate-production-data.md
+  # ------------------- Platform Strategy -------------------
   - Platform Strategy:
+    - ADP Platform Strategy: Platform-Strategy/adp-platform-strategy.md
     - Documentation Approach: Platform-Strategy/documentation-approach.md
+  # ------------------- Platform Architecture -------------------
   - Platform Architecture:
     - Architecture Overview: Platform-Architecture/architecture-overview.md
     - Environments: Platform-Architecture/environments.md
+    - Tech Radar: Platform-Architecture/tech-radar.md
+    - Scaling: Platform-Architecture/scaling.md
+    - Integration Patterns:
+      - Overview: Platform-Architecture/integration-patterns/overview.md
+      - Dynamics & Plower Platform: Platform-Architecture/integration-patterns/dynamics-and-platform-platform.md
+    - Architectural Components:
+      - Istio Service Mesh POC: Platform-Architecture/architectural-components/istio-service-mesh-poc.md
+      - Application Hosting: Platform-Architecture/architectural-components/application-hosting.md
+      - Microservices & AKS: Platform-Architecture/architectural-components/microservices-and-aks.md
+      - Secrets & Configuration: Platform-Architecture/architectural-components/secrets-and-configuration.md
+      - monitoring:
+        - Overview: Platform-Architecture/architectural-components/monitoring/overview.md
+        - Automated Monitoring Implementation: Platform-Architecture/architectural-components/monitoring/automated-monitoring-implementation.md
+        - Network Watcher: Platform-Architecture/architectural-components/monitoring/network-watcher.md
+        - Alerts: Platform-Architecture/architectural-components/monitoring/alerts.md
+      - CI, CD, & Automation:
+        - GitOps for AKS:
+          - Overview: Platform-Architecture/architectural-components/ci-cd-and-automation/gitops-for-aks/overview.md
+          - Flux Configuration: Platform-Architecture/architectural-components/ci-cd-and-automation/gitops-for-aks/flux-configuration.md
+          - Repository Setup: Platform-Architecture/architectural-components/ci-cd-and-automation/gitops-for-aks/repository-setup.md
+          - Application Deployments: Platform-Architecture\architectural-components\ci-cd-and-automation\gitops-for-aks\application-deployments.md
+        - Azure Service Operator for AKS: Platform-Architecture/architectural-components/ci-cd-and-automation/azure-service-operator-for-aks.md
+        - Common Pipelines: Platform-Architecture/architectural-components/ci-cd-and-automation/common-pipelines.md
+        - Infrastructure Pipelines: Platform-Architecture/architectural-components/ci-cd-and-automation/infrastructure-pipelines.md
+        - Naming Conventions: Platform-Architecture/architectural-components/ci-cd-and-automation/naming-conventions-and-structures.md
+  # ------------------- Developer Reference -------------------
   - Developer Reference:
     - ASO Helm Library Chart: Developer-Reference/Infrastructure/ASO Helm Library Chart.md
-    - ADP Portal: Developer-Reference/Infrastructure/ADP Portal.md
+    - ADP Portal: 
+      - Overview: Developer-Reference/adp-portal/overview.md
+      - Ongoing Development: 
+        - Portal Development: Developer-Reference\Infrastructure\ADP Portal.md
+        - Backstage Plugin Index: Developer-Reference\adp-portal\ongoing-development\backstage-plugin-index.md
+        - Backstage Setup: Developer-Reference\adp-portal\ongoing-development\backstage-setup.md
+        - Catalog Data Sources: Developer-Reference\adp-portal\ongoing-development\catalog-data-sources.md
+        - GitHub App Permissions: Developer-Reference\adp-portal\ongoing-development\github-app-permissions.md
+        - Gov.uk Branding: Developer-Reference\adp-portal\ongoing-development\govuk-branding.md
+    - Helm Library Memory & CPU Tiers: Developer-Reference/Infrastructure/helm-library-memory-and-cpu-tiers.md
+    - Reference Applications:
+      - FCP Demo Services:
+        - Overview: Developer-Reference/reference-applications/fcp-demo-services/overview.md
+    - GitHub:
+      - Verify GitHub Comment Signature: Developer-Reference\github\verify-gitHub-commit-signatures.md 

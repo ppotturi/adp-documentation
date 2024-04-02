@@ -5,7 +5,8 @@ uri: https://defra.github.io/adp-documentation/Getting-Started/onboarding-a-deli
 authors:
     - Lorenzo Squillante
     - Logan Talbot
-date: 2018-07-10
+    - Rozerin Baran
+date: 2024-03-24
 ---
 
 # Onboarding a delivery programme
@@ -32,10 +33,23 @@ By completing the steps in this guide you will be able to:
 
 ## Creating a Delivery Programme
 
-....
+Once you have navigated to the 'ADP Data' page you will be presented with the 'Delivery Programmes' option. 
+![ADP Data](../images/adp-data.png)
+By clicking 'View' you will have the ability to view existing Delivery Programmes and add new ones if you have the admin permissions. 
+![View Delivery Programmes](../images/adp-view-delivery-programme.png)
 
 ## Entering Delivery Programme information
 
-....
+You can start entering Delivery Programme information by clicking the 'Add Delivery Programme' button.
+![Add Delivery Programme](../images/adp-create-delivery-programme.png)
+You will be presented with various fields; some are optional. For example, the 'Finance Code', 'Website', and 'Alias' are not required, and you can add them later if you wish.
+
+The Arms Length Body (ALB) that was created for your programme should appear in the Arms Length Body dropdown, and you should be able to select it accordingly. The programme managers' dropdown should also be pre-populated, and you are able to select more than one manager.
+
+This form includes validation. Once you have completed inputting the Delivery Programme Information and pressed 'create', the validation will run to check if any changes need to be made to your inputs.
 
 ## Updating Delivery Programme information
+
+Once you have created your Delivery Programme, you will automatically be redirected to the view page which will allow you to look through existing programmes and edit them. 
+![Update Delivery Programme](../images/adp-view-edit-delivery-programme.png)
+

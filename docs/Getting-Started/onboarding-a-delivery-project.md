@@ -37,6 +37,33 @@ By completing this guide you will have completed these actions:
 
 # Guide
 
-....
-
 ## Creating a Delivery Project
+
+Once you have navigated to the 'ADP Data' page you will be presented with the 'Delivery Projects' option. 
+![ADP Data](../images/adp-data.png)
+By clicking 'View' you will have the ability to view existing Delivery Projects and add new ones if you have the admin permissions. 
+![View Delivery Projects](../images/adp-view-delivery-project.png)
+
+## Entering Delivery Project information
+
+You can start entering Delivery Projects information by clicking the 'Add Delivery Projects' button.
+![Add Delivery Projects](../images/adp-create-delivery-project.png)
+You will be presented with various fields; some are optional. For example, the 'Alias', 'Website', 'Finance Code' and 'ADO Project' are not required, and you can add them later if you wish.
+
+The Delivery Programme that was created for your project should appear in the Delivery Programme dropdown, and you should be able to select it accordingly. 
+
+This form includes validation. Once you have completed inputting the Delivery Project Information and pressed 'create', the validation will run to check if any changes need to be made to your inputs.
+
+### Assign delivery project admins to adminster delivery project.
+...
+### Adding creation of a new ADO Team on a selected ADO project.
+...
+### Adding creation of GitHub Team for delivery project.
+...
+### Adding Azure group(s) for the delivery project's tech users.
+...
+
+## Updating Delivery Project information
+Once you have created your Delivery Programme, you will automatically be redirected to the view page which will allow you to look through existing programmes and edit them. 
+![Update Delivery Projects](../images/adp-view-edit-delivery-project.png)
+

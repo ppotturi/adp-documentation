@@ -129,6 +129,7 @@ nav:
         - Catalog Data Sources: Developer-Reference/adp-portal/ongoing-development/catalog-data-sources.md
         - GitHub App Permissions: Developer-Reference/adp-portal/ongoing-development/github-app-permissions.md
         - Gov.uk Branding: Developer-Reference/adp-portal/ongoing-development/govuk-branding.md
+        - ADP Data PLugin: Developer-Reference/adp-portal/ongoing-development/adp-data-plugin
     - Helm Library Memory & CPU Tiers: Developer-Reference/Infrastructure/helm-library-memory-and-cpu-tiers.md
     - Reference Applications:
       - FCP Demo Services:

@@ -64,6 +64,6 @@ This form includes validation. Once you have completed inputting the Delivery Pr
 ...
 
 ## Updating Delivery Project information
-Once you have created your Delivery Programme, you will automatically be redirected to the view page which will allow you to look through existing programmes and edit them. 
+Once you have created your Delivery Project, you will automatically be redirected to the view page which will allow you to look through existing projects and edit them. 
 ![Update Delivery Projects](../images/adp-view-edit-delivery-project.png)
 

@@ -50,7 +50,7 @@ You can start entering Delivery Projects information by clicking the 'Add Delive
 ![Add Delivery Projects](../images/adp-create-delivery-project.png)
 You will be presented with various fields; some are optional. For example, the 'Alias', 'Website', 'Finance Code' and 'ADO Project' are not required, and you can add them later if you wish.
 
-The Delivery Programme that was created for your project should appear in the Delivery Programme dropdown, and you should be able to select it accordingly. 
+If the Delivery Programme for your project has already been created it will appear in the Delivery Programme dropdown, and you will be able to select it accordingly. 
 
 This form includes validation. Once you have completed inputting the Delivery Project Information and pressed 'create', the validation will run to check if any changes need to be made to your inputs.
 

@@ -1,7 +1,7 @@
 ---
 title: ADP Data PLugin
-summary: 
-uri: https://defra.github.io/adp-documentation/Developer-Reference/adp-portal/ongoing-development//
+summary: This document provides an overview of the ADP Data Plugin, including the backend APIs and portal permissions.
+uri: https://defra.github.io/adp-documentation/Developer-Reference/adp-portal/ongoing-development/adp-data-plugin/
 authors:
     - Rozerin Baran
 date: 2024-03-24

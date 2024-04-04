@@ -44,7 +44,7 @@ You can start entering Delivery Programme information by clicking the 'Add Deliv
 ![Add Delivery Programme](../images/adp-create-delivery-programme.png)
 You will be presented with various fields; some are optional. For example, the 'Finance Code', 'Website', and 'Alias' are not required, and you can add them later if you wish.
 
-The Arms Length Body (ALB) that was created for your programme should appear in the Arms Length Body dropdown, and you should be able to select it accordingly. The programme managers' dropdown should also be pre-populated, and you are able to select more than one manager.
+If the Arms Length Body (ALB) for your programme has already been created it will appear in the Arms Length Body dropdown and you will be able to select it accordingly. The programme managers' dropdown should also be pre-populated, and you are able to select more than one manager.
 
 This form includes validation. Once you have completed inputting the Delivery Programme Information and pressed 'create', the validation will run to check if any changes need to be made to your inputs.
 

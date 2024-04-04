@@ -15,7 +15,7 @@ The diagram below illustrates the high-level process flow of user journeys, dist
 
 ![ADP Data Process Flow](../../../images/adp-data-high-level-process-flow.png)
 
-### Portal Permissions per ADP Persona
+### Portal Permissions
 
 In the table below you can see the permissions per ADP Persona. Please note that users are not restricted to one role/persona. A single person may be a Programme Manager, a Team Manager for a team in their Programme and a developer within that team.
 

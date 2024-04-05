@@ -25,8 +25,11 @@ There are 3 core parts to a Service deployment/upgrade, which are done in the fo
 The deployment process flow:
 
 1.	A new deployment is triggered via the [CI & CD Pipelines](https://github.com/DEFRA/ado-pipeline-common?tab=readme-ov-file) for the Service:
-    1. New app Secrets are imported/updated/deleted* in the Key Vault and are mastered in the Azure DevOps (ADO) Secret Library Groups for the service.
-    2. New App Configuration keys and values are imported/updated/deleted in the Service Config Maps & App Configuration Service from the Service’s ‘appConfig.yaml’ files. Note: The sentinel key is not updated yet.
+
+  1. New app Secrets are imported/updated/deleted* in the Key Vault and are mastered in the Azure DevOps (ADO) Secret Library Groups for the service.
+  
+  2. New App Configuration keys and values are imported/updated/deleted in the Service Config Maps & App Configuration Service from the Service’s ‘appConfig.yaml’ files. Note: The sentinel key is not updated yet.
+
 2. The new images and artefact are pushed to the environment Container Registry (ACR) (via pipeline deployment) and Flux updates the [Services repository](https://github.com/DEFRA/adp-flux-services) with the new version to be deployed:
    1. This can be a higher version (new image & release) or lower version (existing/rollback).
 
@@ -52,8 +55,8 @@ The deployment process flow:
    10. If database deployment/migration fails, the App will not be upgraded.
 
 4. If a user has requested the deployment of App Config/Secrets only via the [Flag in the build.yaml](https://github.com/DEFRA/ado-pipeline-common/blob/main/docs/AppBuildAndDeploy.md#buildyaml-for-nodejs-app), the App or Infra will not be deployed on this release:
-a.	The App Config & Secrets will be updated via the Pipeline, including the Sentinel Key with the Build ID – which triggers the configuration update.
-b.	The [Reloader](https://github.com/stakater/Reloader) service will perform a rolling and zero-downtime [upgrade](https://github.com/stakater/Reloader?tab=readme-ov-file#problem) (restart Pods) of the Service to consume the new App configuration (incremental Pod restarts).
+  1. The App Config & Secrets will be updated via the Pipeline, including the Sentinel Key with the Build ID – which triggers the configuration update.
+  2. The [Reloader](https://github.com/stakater/Reloader) service will perform a rolling and zero-downtime [upgrade](https://github.com/stakater/Reloader?tab=readme-ov-file#problem) (restart Pods) of the Service to consume the new App configuration (incremental Pod restarts).
 
 !!! note
     All releases / deployments are promoted via the Common CI and CD Pipelines using Azure DevOps as the orchestrator. We promote continuous delivery with automated checks and tests above/in preference to manual intervention and approvals. Approval gates can be added optionally to Azure Pipelines to gate the promotion of code. 

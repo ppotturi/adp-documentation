@@ -66,8 +66,6 @@ The following areas require the support of the ADP Platform Team for your servic
 
 ### Entering Component Information
 
-Enter properties describing your component/ service:
-
 Enter the properties describing your component/service:
 
 1.	Enter __Component Name__ (service name). It must be a unique name of the component which will be used for the repository, package, and image name. 
@@ -88,7 +86,7 @@ To encourage coding in the open the repository will be public by default. Refer 
 The scaffolder will create a new repository and an associated team with ‘Write’ permissions:
 
 1.	The __host__ where the repository will be created – the default will be the GitHub organisation of DEFRA.
-2.	Enter __name of the repositor__. Should be the same as component name (service name).
+2.	Enter __name of the repository__. Should be the same as component name (service name).
 3.	Enter __GitHub Team Name__. This team will be granted ‘Write’ access to the repository.
 4.	Enter __GitHub Team Description__. An optional description of the team.
 5.	Enter __GitHub Team Members__. Using comma-separated list of GitHub usernames to be added to the team. For example: GitHubName1,GitHubName2.
@@ -111,7 +109,7 @@ CI/CD pipelines will be created in Azure DevOps:
 ### Reviewing entered information
 
 1. Review the information entered and click __back__ if you would like to amend any of the provided information.
-2. If you think all entered information is correct click the __create__ button to being creation of your new service.
+2. If you think all entered information is correct click the __create__ button to begin creation of your new service.
 
 ### Creating the service
 
@@ -125,7 +123,7 @@ We use HELM Charts to deploy, manage and update Platform service applications an
 
 #### How do I use the HELM Charts for infrastructure with my application?
 
-The creation of infrastructure dedicated for your business service/application is done via your [microservice HELM Chart](../Developer-Reference/Infrastructure/ASO%20Helm%20Library%20Chart.md) in your repository, and deployed by your Service CI/CD pipeline that you created earlier. A ‘helm’ folder will be created in every scaffolded service with 2 folders. The one ending is ‘-infra’ is where you define your service’s infrastructure in a simple YAML format.
+The creation of infrastructure dedicated for your business service/application is done via your [microservice HELM Chart](../Developer-Reference/Infrastructure/ASO%20Helm%20Library%20Chart.md) in your repository, and deployed by your Service CI/CD pipeline that you created earlier. A ‘helm’ folder will be created in every scaffolded service with 2 subfolders. The one ending with ‘-infra’ is where you define your service’s infrastructure requirements in a simple YAML format.
 
 !!! note
     The full list of supported ‘self-service’ infrastructure can be found in the [ADP ASO Helm Library Documentation](../Developer-Reference/Infrastructure/ASO%20Helm%20Library%20Chart.md) on GitHub with instructions on how to use it.

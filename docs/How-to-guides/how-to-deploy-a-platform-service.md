@@ -15,8 +15,9 @@ In this how to guide you will learn how to build, deploy, and monitor a Platform
 
 ## Prerequisites
 Before building and deploying a service, you will first need to ensure that:
-- Onboarded delivery project on to ADP
-- Created a Platform Service for your team/delivery project
+
+- [Onboarded delivery project on to ADP](../Getting-Started/onboarding-a-delivery-project.md)
+- [Created a Platform Service for your team/delivery project](../How-to-guides/how-to-create-a-platform-service.md)
 
 ## Overview
 
@@ -41,8 +42,8 @@ Pipelines are mapped 1-1 per microservice, and can deploy the Web App, Infra, Ap
 - Once you have [scaffolded your project/service](https://defra.github.io/adp-documentation/How-to-guides/how-to-create-a-platform-service/), you will have a ‘[build.yaml](https://github.com/DEFRA/ffc-demo-web/tree/main/.azuredevops)’ in an .azureDevOps folder in your microservice repository in GitHub. This is your pipeline instantiation.
 In your chosen Azure DevOps project:
 - On the Pipelines page, either at the root level or under a Pipelines Folder name you defined/chose, you will find your Pipeline.
-- Your pipeline is convention based including naming. Your pipeline will be called the same name as your repository: “<your-service-name>”. 
-  - E.g: <projectcode>-<servicename>-api
+- Your pipeline is convention based including naming. Your pipeline will be called the same name as your repository: `<your-service-name>`. 
+  - E.g: `<projectcode>-<servicename>-api`
   
 ![Pipeline](../images/pipeline-screenshot.png)
 
@@ -80,12 +81,14 @@ Above image of pipeline run example.
 You can change some basic functionality of your pipeline. A lot of it is defined for you in a convention-based manner, including the running of unit tests, reporting, environments that are available etc, and some are selectable, such as build of .NET or NodeJS apps, location of test files, PR and CI triggers, and the parameters to deploy configuration only or automatic deploy on every feature build. 
 Full details can be found on the Pipelines documentation GitHub page.
 ![Pipeline Parameters](../images/pipeline-parameters.png)
+
 Above image is an example of what can be changed in terms of Pipeline Parameters (triggers, deployment types, paths to include/exclude).
 The below image is an example of what can be changed. You can change things like your config locations, test paths, what ADO Secret variable groups you wish to import, what App Framework (Node or C#) etc.
 ![yaml pipeline](../images/yaml-pipeline.png)
 
 ### What does my progression look like through environments?
 To promote your code through environments, you can use the Azure Pipelines user interface for your team/project to either:
+
 - Allow automated progression via automated checks or and continuous delivery or,
 - Manually push/promote the code to environments on demand.
 

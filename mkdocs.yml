@@ -96,6 +96,7 @@ nav:
     - Architecture Overview: Platform-Architecture/architecture-overview.md
     - Environments: Platform-Architecture/environments.md
     - Tech Radar: Platform-Architecture/tech-radar.md
+    - Permissions Model: Platform-Architecture/permissions-model.md
     - Scaling: Platform-Architecture/scaling.md
     - ADP Portal:
       - ADP Copilot: Platform-Architecture/adp-portal/adp-copilot.md

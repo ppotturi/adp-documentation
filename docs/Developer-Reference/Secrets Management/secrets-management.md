@@ -10,7 +10,7 @@ The secrets in ADP services are managed using Azure Key Vault. The secretes for 
 
 -   Example: The variable groups for different environment of the service **ffc-demo-web** are shown below.
 
-  ![image.png](/.attachments/image-1565380a-a26b-4b33-af17-fd93cb4eed9a.png)
+  ![image.png](../images/variable-group.png)
 
 - Add the variables and the values for the secretes in each of the variable groups.
 
@@ -20,7 +20,7 @@ The secrets in ADP services are managed using Azure Key Vault. The secretes for 
 
 - Example: Secrete variables for the service **ffc-demo-web** are shown below.
 
-  ![image.png](/.attachments/image-57930e36-eb0e-496b-826a-0408e8f2fc95.png)
+  ![image.png](../images/variable-group-keyvalue.png)
 
 
 **2. ADO Pipeline - Import secrets to Key Vault**
@@ -32,7 +32,7 @@ Pipeline task and Power Shell scripts.
 - Example: The code snippet involved in importing the secrets to the Azure Key Vault is 
   shown below.
 
-  ![image.png](/.attachments/image-7f15d83b-565f-459d-be07-eaf19436e88b.png)
+  ![image.png](../images/Import-secrets-to-Key-Vault.png)
 
 
 **3. Azure Key Vault - Imported secretes**
@@ -40,7 +40,7 @@ After the secretes are added to the ADO Library variable groups and the service 
 
 - Example: Secretes imported to the Key Vault for the service **ffc-demo-web** are shown below
 
-  ![image.png](/.attachments/image-a1126983-13e2-4b6f-a25a-f5abc2c61394.png)
+  ![image.png](../images/keyvault-secretes.png)
  
 
 **4. App Config**
@@ -59,7 +59,7 @@ There are two different kinds of appConfig files.
 
 - Example: The appConfig files for different environments for the service **ffc-demo-web** are shown below.
 
-  ![image.png](/.attachments/image-a78ee751-fe43-4e11-9abe-1ca3a21892d0.png)
+  ![image.png](../images/appconfig.png)
 
 The type of the variable (key) that reference the secretes form the Key Vault should be defined as **type: "keyvault"** in the config YAML file.
 
@@ -68,10 +68,10 @@ The Pipeline tasks shown below use the environment specific appConfig YAML files
 
 - Repo: ADO-PIPELINE-COMMON  
 
-![image.png](/.attachments/image-31f1a5b6-d2c4-4cb0-947d-d9b1ee812d6b.png)
+![image.png](../images/import-appconfig.png)
 
 **5. Run Pipeline - appConfig only**
 
 The secretes can be added to the Key Vault and also referenced by the service using the appConfig files. This can be achieved by running the pipeline on selecting the **Deploy App Config** check box. This helps in running only the secrete management tasks instated of running all the tasks in the pipeline. This is useful when updating the secretes of a service.
 
-![image.png](/.attachments/image-566625e7-445e-4977-b410-4122e40c4f40.png)
+![image.png](../images/run-appconfig.png)

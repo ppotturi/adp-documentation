@@ -10,7 +10,7 @@ The secrets in ADP services are managed using Azure Key Vault. The secretes for 
 
         {service name}-{env}
 
--   Example: The variable groups for different environment of the service **ffc-demo-web** are shown below.
+-   Example: The variable groups for different environment of a service are shown below.
 
   ![image.png](../../images/variable-group.png)
 
@@ -20,7 +20,7 @@ The secrets in ADP services are managed using Azure Key Vault. The secretes for 
 
         {service name}-{variable name}
 
-- Example: Secrete variables for the service **ffc-demo-web** are shown below.
+- Example: Secrete variables for a service are shown below.
 
   ![image.png](../../images/variable-group-keyvalue.png)
 
@@ -42,7 +42,7 @@ Pipeline task and Power Shell scripts.
 
 After the secretes are added to the ADO Library variable groups and the service CI pipeline run successfully would import the secrets to the Key Vault as shown below. 
 
-- Example: Secretes imported to the Key Vault for the service **ffc-demo-web** are shown below
+- Example: Secretes imported to the Key Vault for a service are shown below
 
   ![image.png](../../images/keyvault-secretes.png)
  
@@ -62,7 +62,7 @@ There are two different kinds of appConfig files.
 - Common appConfig file: There is a common appConfig.yaml file included in each of the service that defines the 
   environment variables that commonly used by all of the service environments.
 
-- Example: The appConfig files for different environments for the service **ffc-demo-web** are shown below.
+- Example: The appConfig files for different environments for a service are shown below.
 
   ![image.png](../../images/appconfig.png)
 

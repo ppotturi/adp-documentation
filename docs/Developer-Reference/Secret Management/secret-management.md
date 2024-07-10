@@ -1,7 +1,9 @@
 **ADP Services Secret Management**
+
 The secrets in ADP services are managed using Azure Key Vault. The secretes for each individual services are imported to the Azure Key Vault through ADO Pipeline tasks and are accessed by the services by using the application configuration YAML files. The importing of secretes to the Key Vault and referencing them by individual services are automated using ADO Pipelines. The detailed workflow for secret management includes the following steps:
 
 **1. Configure ADO Library**
+
 - Create variable groups for each environments of the service in ADO Library.
 
   Naming Convection: It follows the following convention for creating the variable groups for a service.
@@ -24,6 +26,7 @@ The secrets in ADP services are managed using Azure Key Vault. The secretes for 
 
 
 **2. ADO Pipeline - Import secrets to Key Vault**
+
 The variables and values from the variable groups are automated to import to the Azure Key Vault using 
 Pipeline task and Power Shell scripts. 
 
@@ -36,6 +39,7 @@ Pipeline task and Power Shell scripts.
 
 
 **3. Azure Key Vault - Imported secretes**
+
 After the secretes are added to the ADO Library variable groups and the service CI pipeline run successfully would import the secrets to the Key Vault as shown below. 
 
 - Example: Secretes imported to the Key Vault for the service **ffc-demo-web** are shown below
@@ -44,6 +48,7 @@ After the secretes are added to the ADO Library variable groups and the service 
  
 
 **4. App Config**
+
 Access the secrets from the Key Vault through appConfig YAML files included in each of the services. 
 There are two different kinds of appConfig files. 
 
@@ -64,6 +69,7 @@ There are two different kinds of appConfig files.
 The type of the variable (key) that reference the secretes form the Key Vault should be defined as **type: "keyvault"** in the config YAML file.
 
 **4. ADO Pipeline - Import App Config**
+
 The Pipeline tasks shown below use the environment specific appConfig YAML files to import the secrets from Azure Key Vault to the service.
 
 - Repo: ADO-PIPELINE-COMMON  

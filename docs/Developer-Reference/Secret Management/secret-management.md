@@ -68,6 +68,7 @@ There are two different kinds of appConfig files.
 
 The type of the variable (key) that reference the secretes form the Key Vault should be defined as **type: "keyvault"** in the config YAML file.
 
+
 **4. ADO Pipeline - Import App Config**
 
 The Pipeline tasks shown below use the environment specific appConfig YAML files to import the secrets from Azure Key Vault to the service.
@@ -75,6 +76,7 @@ The Pipeline tasks shown below use the environment specific appConfig YAML files
 - Repo: ADO-PIPELINE-COMMON  
 
 ![image.png](../../images/import-appconfig.png)
+
 
 **5. Run Pipeline - appConfig only**
 

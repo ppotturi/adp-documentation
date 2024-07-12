@@ -146,3 +146,4 @@ nav:
         - Overview: Developer-Reference/reference-applications/fcp-demo-services/overview.md
     - GitHub:
       - Verify GitHub Comment Signature: Developer-Reference/github/verify-gitHub-commit-signatures.md
+    - Secret Management: Developer-Reference/Secret Management/secret-management.md

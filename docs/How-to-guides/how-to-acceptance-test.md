@@ -38,12 +38,18 @@ If custom tags are defined then the pipeline need to be customized to run those 
 
 ### How to run acceptance test locally?
 
-1. Set required tags, default is empty string which will run all tests.
+#### Set required tags, default is empty string which will run all tests
 
 - pwsh : `$ENV:TEST_TAGS = "@sanity or @smoke"`
 - shell: `export TEST_TAGS = "@sanity or @smoke"`
 
-2. Run the acceptance test script under scripts folder within the repo.
+#### Run the acceptance test script under scripts folder within the repo
+
+```shell
+docker-compose up -d
+cd test/acceptance
+docker-compose run --rm wdio-cucumber
+```
 
 ### How to customize your pipeline to run acceptace tests?
 

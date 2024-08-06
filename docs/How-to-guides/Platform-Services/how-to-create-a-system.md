@@ -14,7 +14,7 @@ A system is a label used to group together multiple related services. This label
 
 # How to create a system
 
-In order to create a system, you simply need to add a new definition for it to the [ADP software templates repository](https://github.com/DEFRA/adp-software-templates/tree/main/systems). There is [an example system](https://github.com/DEFRA/adp-software-templates/tree/main/systems/example.yaml) to show the format that should be used. Once this system is added, you need to add a link to it from the [all.yaml file](https://github.com/DEFRA/adp-software-templates/tree/main/systems/all.yaml). 
+In order to create a system, you simply need to add a new definition for it to the [ADP software templates repository](https://github.com/DEFRA/adp-software-templates/tree/main/systems). There is [an example system](https://github.com/DEFRA/adp-software-templates/tree/main/systems/example.yaml) to show the format that should be used. Once this system is added, you need to add a link to it from the [all.yaml file](https://github.com/DEFRA/adp-software-templates/tree/main/systems/all.yaml). You will also need to choose a name for your system, which should be in the format `{delivery-project}-{system-name}-system` e.g. `fcp-demo-example-system`
 
 Once the system has been added and the `all.yaml` file has been updated, you will need to wait for the ADP portal to re-scan the repository which happens every hour. If you need the system to be available sooner than that, then an ADP admin can trigger a refresh at any time by requesting a refresh of the [project-systems location](https://portal.adp.defra.gov.uk/catalog/default/location/project-systems).
 
@@ -46,8 +46,8 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   # This is the id of the system you want to create. It should be less than 100 characters long and
-  # only contain letters, numbers and hyphens.
-  name: my-system
+  # only contain letters, numbers and hyphens and be in the format `{delivery-project}-{system-name}-system`
+  name: fcp-demo-example-system
   # The description is meant to give users a bit of information about what sort of services are meant
   # to be linked to this system and what it represents. This can be any text that you like, as long as it is valid yaml.
   description: An example system, intended to be used to help projects to create their own systems.

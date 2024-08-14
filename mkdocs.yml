@@ -85,9 +85,10 @@ nav:
       - How to create a system: How-to-guides/Platform-Services/how-to-create-a-system.md
     - Testing:
       - How to create an acceptance test: How-to-guides/Testing/how-to-create-acceptance-test.md
-      - How to create an contract test: How-to-guides/Testing/how-to-create-contract-test.md
+      - How to create an Accessibility test: How-to-guides/Testing/how-to-create-accessibility-test.md
+      - How to create an Contract test: How-to-guides/Testing/how-to-create-contract-test.md
       - How to create an OWASP test: How-to-guides/Testing/how-to-create-owasp-test.md
-      - How to create a performance test: How-to-guides/Testing/how-to-create-performance-test.md
+      - How to create a Performance test: How-to-guides/Testing/how-to-create-performance-test.md
   # ------------------- Migrate to ADP -------------------
   - Migrate to ADP:
     - Migrate a delivery project: Migrate-to-ADP/migrate-a-delivery-project.md

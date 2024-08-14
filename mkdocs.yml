@@ -86,6 +86,7 @@ nav:
     - Testing:
       - How to create an acceptance test: How-to-guides/Testing/how-to-create-acceptance-test.md
       - How to create an contract test: How-to-guides/Testing/how-to-create-contract-test.md
+      - How to create an OWASP test: How-to-guides/Testing/how-to-create-owasp-test.md
       - How to create a performance test: How-to-guides/Testing/how-to-create-performance-test.md
   # ------------------- Migrate to ADP -------------------
   - Migrate to ADP:

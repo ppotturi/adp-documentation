@@ -42,7 +42,6 @@ The contract Test scripts should be added to the `test\contract` folder in the G
 #### Requirments for local development
 
 - Docker Desktop 2.2.0.3 (42716) or higher
-- JMeter v5.5 or above
 
 ### How to run a contract test locally?
 
@@ -57,8 +56,6 @@ docker-compose -f docker-compose.yaml -f docker-compose.test.yaml -p "<<servicen
 ```
 
 ### How to parameterising your Tests
-
-You can modify the number of virtual users, loop count and ramp-up duration by changing the settings in the file perf-test.properties.
 
 #### Set required PACT Broker credentials to run tests
 
@@ -75,8 +72,10 @@ You can modify the number of virtual users, loop count and ramp-up duration by c
 You can customize the environments where you would like to run contract test (within the pipeline it is referred as integration test)
 
 ```yaml
-postDeployTest:      
-  envToTest: snd4
+postDeployTest:
+  envToTest: snd4      
+  testEnvs:
+    integrationTests: snd4
   testsToRun: 'integration'
 ```
 

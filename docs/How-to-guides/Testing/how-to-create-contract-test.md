@@ -1,5 +1,5 @@
 ---
-title: How to create a contract/Integration test
+title: How to create a contract test
 summary: How to create and run api contract test for a service
 uri: https://defra.github.io/adp-documentation/How-to-guides/how-to-create-contract-test/
 authors:
@@ -32,7 +32,7 @@ By completing this guide, you will have completed these actions:
 !!! note
     Every pipeline run includes steps to run varoious tests pre deployment and post deployment. These tests may include unit, integration, acceptance, performance, accessibilty etc as long as they are defined for the service.
 
-    The pipeline will check for the existence of the file `./docker-compose.test.yaml` to determine if contract tests have been defined.
+    The pipeline will check for the existence of the file `./docker-compose.contract.test.yaml` to determine if contract tests have been defined.
 
 ### How to add a contract test for your service?
 
@@ -50,7 +50,7 @@ Executre the above commands in bash or PowerShell
 
 
 # this will execute the docker-compose at the root folder to create an instance of the service and its dependences
-docker-compose -f docker-compose.yaml -f docker-compose.test.yaml -p "<<servicename>>-test" up
+docker-compose -f docker-compose.yaml -f docker-compose.contract.test.yaml -p "<<servicename>>-test" up
 
 ```
 
@@ -72,10 +72,10 @@ You can customize the environments where you would like to run contract test (wi
 
 ```yaml
 postDeployTest:
-  envToTest: snd4      
+  envToTest: snd4
   testEnvs:
     integrationTests: snd4
-  testsToRun: 'integration'
+  testsToRun: 'contract'
 ```
 
 [Please refer ffc-demo-web pipeline:](https://github.com/DEFRA/ffc-demo-web/blob/main/.azuredevops/build.yaml)

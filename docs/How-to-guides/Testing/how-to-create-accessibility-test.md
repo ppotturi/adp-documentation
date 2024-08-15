@@ -1,9 +1,8 @@
 ---
-title: How to create a Accessibility test
+title: How to create an Accessibility test
 summary: How to create and run Accessibility test for a service
 uri: https://defra.github.io/adp-documentation/How-to-guides/how-to-create-accessibility-test/
 authors:
-  - Ken Babigumira
   - Rajesh Venkatraman
 date: 2024-08-14
 weight: 2

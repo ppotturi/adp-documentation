@@ -3,7 +3,6 @@ title: How to create a contract/Integration test
 summary: How to create and run api contract test for a service
 uri: https://defra.github.io/adp-documentation/How-to-guides/how-to-create-contract-test/
 authors:
-  - Ken Babigumira
   - Rajesh Venkatraman
 date: 2024-08-13
 weight: 2

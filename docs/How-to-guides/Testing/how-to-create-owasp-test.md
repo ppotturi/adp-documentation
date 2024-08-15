@@ -1,9 +1,8 @@
 ---
-title: How to create a OWASP test
+title: How to create an OWASP test
 summary: How to create and run OWASP test for a service
 uri: https://defra.github.io/adp-documentation/How-to-guides/how-to-create-owasp-test/
 authors:
-  - Ken Babigumira
   - Rajesh Venkatraman
 date: 2024-08-14
 weight: 2

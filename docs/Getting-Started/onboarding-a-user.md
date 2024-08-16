@@ -37,7 +37,7 @@ By completing this guide you will have completed these actions:
 
 # Guide
 
-You can add a user to a Delivery Project from the Manage Members tab on the Delivery Projects catalog page. You can get to this page by searching for your delivery project in the catalog with the [kind set to Group and the type to delivery-project](https://portal.adp.defra.gov.uk/catalog?filters%5Bkind%5D=group&filters%5Btype%5D=delivery-project&filters%5Buser%5D=all). 
+You can add a user to a Delivery Project from the Manage Members tab on the Delivery Projects page. You can get to this page by searching for your delivery project in the catalog with the [kind set to Group and the type to delivery-project](https://portal.adp.defra.gov.uk/catalog?filters%5Bkind%5D=group&filters%5Btype%5D=delivery-project&filters%5Buser%5D=all). Alternatively, you can find the delivery project via the 'Delivery Projects' card in the ADP Onboarding page. 
 
 ![Edit Delivery Project Members](../images/adp-edit-delivery-project-members.png)
 
@@ -50,5 +50,7 @@ There are 2 roles which can be assigned to a user for a Delivery Project:
 - Admin - A user who can manage the Delivery Project, including editing it and managing its members
 
 If a user is going to be a Technical user, you will need to provide a github handle so they can be added to the correct teams in github.
+
+If neither 'additional permission' roles are selected, the user will be added to the delivery project as a "Team Member"
 
 ![Create Delivery Project Member](../images/adp-create-delivery-project-member.png)
